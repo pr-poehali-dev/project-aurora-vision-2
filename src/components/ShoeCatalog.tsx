@@ -82,10 +82,17 @@ export function ShoeCatalog() {
                   <span className="text-2xl font-medium">
                     {shoe.price.toLocaleString("ru-RU")} ₽
                   </span>
-                  <button className="inline-flex items-center gap-2 bg-foreground text-primary-foreground px-5 py-3 text-sm tracking-wide hover:bg-foreground/80 transition-colors duration-300">
+                  <a
+                    href={`https://wa.me/79856611070?text=${encodeURIComponent(
+                      `Здравствуйте! Хочу заказать: ${shoe.title}\nРазмер: ${selectedSize[shoe.id] || "не выбран"}\nЦена: ${shoe.price.toLocaleString("ru-RU")} ₽`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-foreground text-primary-foreground px-5 py-3 text-sm tracking-wide hover:bg-foreground/80 transition-colors duration-300"
+                  >
                     <ShoppingBag className="w-4 h-4" />
                     В корзину
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>
