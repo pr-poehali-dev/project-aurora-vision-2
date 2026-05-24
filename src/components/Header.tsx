@@ -41,6 +41,7 @@ export function Header() {
             { label: "Главная", href: "#hero" },
             { label: "О бренде", href: "#about" },
             { label: "Коллекции", href: "#projects" },
+            { label: "Каталог", href: "#shoe-catalog" },
             { label: "Категории", href: "#services" },
             { label: "Вопросы", href: "#faq" },
           ].map((item) => (
@@ -98,6 +99,7 @@ export function Header() {
               { label: "Главная", href: "#hero" },
               { label: "О бренде", href: "#about" },
               { label: "Коллекции", href: "#projects" },
+              { label: "Каталог", href: "#shoe-catalog" },
               { label: "Категории", href: "#services" },
               { label: "Вопросы", href: "#faq" },
             ].map((item) => (
