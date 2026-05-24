@@ -20,11 +20,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "Step In Style",
+    title: "Travis Scott кроссовки",
     category: "Обувь",
-    location: "Кеды, лоферы, сандалии",
-    year: "2025",
-    image: "https://cdn.poehali.dev/projects/f1db1fc6-2eb6-419b-8d36-fc7b47c88444/files/09c25fb3-9f6d-4785-b3fc-6fd0f258b272.jpg",
+    location: "Лимитированная коллаборация",
+    year: "NEW",
+    image: "https://cdn.poehali.dev/projects/f1db1fc6-2eb6-419b-8d36-fc7b47c88444/bucket/4bd3bb9a-19f0-4406-8615-6d758c2771ec.jpeg",
   },
   {
     id: 4,
